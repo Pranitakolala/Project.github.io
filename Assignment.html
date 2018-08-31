@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 0;
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLyGs8tqZ-R96cnVTeysMx418LsCCdGTlVAu8uRd8jZ68UGsZG');
+   background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    
+    
+   
+}
+a{
+	text-decoration: none;
+	}
+a:hover{
+text-decoration: underline;
+}
+
+.header h1 {
+   font-size: 70px;
+    font-family: Stencil Std, fantasy;
+    color: rgb(255,255,255);
+    
+}
+p.one {
+	font-family: Courier New, monospace;
+    font-size: 18px;
+    
+    }
+p.two {
+		font-family: Courier;
+		
+
+}	
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(0,0,0,0.2);
+      position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.topnav a.active {
+    background-color:rgb(255,255,255,0.8);
+    color: black;
+}
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+     background-color:rgb(255,255,255,0.8);
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+   
+    padding-left: 20px;
+}
+
+/* Fake image */
+.box-img {
+    padding:2px;
+    width: 50px;
+	height:30px;
+	
+    
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: rgb(0,0,0,0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    
+    text-align: center;
+    background: rgb(180,206,255,0.7);
+    margin-top: 20px;
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+.box {
+
+    float: left;
+    width: 18%;
+    height: 380px;
+    padding: 50px;
+	margin-left: 66px;
+    margin-right: 10px;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+img {
+    border-radius: 50%;
+	
+	
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>PARIKSHA</h1>
+  <p class='one'>Thermometers have a degree too, what makes you different?</p>
+</div>
+
+<div class="topnav">
+  <a class='active' href="#">Home</a>
+  <a target="_blank" href="http://www.griet.ac.in/gr15cse.html">Syllabus</a>
+  <a target="_blank" href="http://www.griet.ac.in/images/Academic%20Calendar_III%20&%20IV%20BTech_2018-19_latest.pdf">Calender</a>
+  <a target="_blank" href="http://www.moodle.griet.ac.in/">Moodle</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Mid-1 examinations </h2>
+      <h5>Date of commencement- Sep 4,2018</h5>
+      
+      
+      <p><a target="_blank" href="http://www.exambranch.griet.ac.in/files/(GR15%20Regulations)%20III%20B.Tech.%20I%20Sem%20Mid%20I%20Examinations%20Sep%202018%20Time%20Table.pdf" >3rd year B-Tech 1st semester mid term examinations time-table.</p></a>
+    </div>
+    <div class="card">
+      <h2>Class Schedule</h2>
+      <h5>CSE-F Semester-1 Time-Table</h5>
+	  <p><a target="_blank" href="IMG-20180702-WA0005.jpg"> Daily class schedule for CSE-F Semester-1 </a></p>
+      
+    </div>
+	    <div class="card">
+      <h2>E-Commerce </h2>
+      <h5>Course Syllabus</h5>
+      <p><a target="_blank" href="E-commerce Syllabus.docx ">E-Commerce Course Complete Syllabus.</a></p>
+	 
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Assignment Deadlines</h2>
+     
+      <ul>
+	  <li><a target="_blank" href="http://www.moodle.griet.ac.in/moodle/mod/assign/view.php?id=5442 ">E-Commerce: Project-2
+	      Deadline- Sep 1,2018</a>
+	  </li>
+	  <li><a target="_blank" href="http://www.moodle.griet.ac.in/moodle/mod/assign/view.php?id=5442 ">
+	     USP: Assignmnet-1
+		  Deadline- Sep 8,2018</a>
+	  </li>
+	  <li><a target="_blank" href="http://www.moodle.griet.ac.in/moodle/mod/assign/view.php?id=5442 ">USP: Assignmnet-2
+		  Deadline- Sep 9,2018</a>
+	  </li>  
+	  <li><a target="_blank" href="http://www.moodle.griet.ac.in/moodle/mod/assign/view.php?id=5442 ">Compiler Design lab:Assignment-2</a>
+	  </li>
+	  
+	  
+	  </ul>
+    </div>
+    <div class="card">
+      <h3>Tech Fun</h3>
+       <ul>
+	  <li><a target="_blank" href="https://www.fastcompany.com/40450007/this-uncanny-robot-abraham-lincoln-got-his-start-as-an-enemy-combatant ">Lifelike Animatronic Abraham Lincoln!</a>
+	  </li>
+	  <li><a target="_blank" href="https://www.digitaltrends.com/cool-tech/engineers-compact-5d-imaging-system/ ">
+	    Engineers build a new camera capable of taking pictures in five dimensions</a>
+	  </li>
+	  <li><a target="_blank" href="https://www.livescience.com/63129-darpa-tiny-robot-olympics.html">Bug-Sized Robot Competetors to Swarm DARPA's Robot Olympics</a>
+	  </li>  
+	  <li><a target="_blank" href="https://www.artificialintelligence-news.com/2018/07/31/ai-personality-eye-movements/">This AI can determine your personality using eye movements</a>
+	  </li>
+	  
+	  
+	  </ul>
+    </div>
+    
+  </div>
+</div>
+
+<div class="footer">
+  <h3>About Us</h3>
+ <div class="clearfix">
+  <div class="box" style="background-color:rgb(255,255,255,0.5)">
+ 
+	<img  src="IMG-20180702-WA0001.png" alt="Nix" style="width:150px " >
+    <p class="two">Name  : Nikhila Vutukuri
+	   Id    : 16241A05Z8
+	   Branch: CSE-F
+	   Year  : 3
+	   
+	   </p>
+  </div>
+  <div class="box" style="background-color:rgb(255,255,255,0.5)">
+ 
+   <img  src="IMG-20180702-WA0002.jpg" alt="Nix" style="width:150px " >
+    <p class="two">Name  : Pranita Kolala
+	   Id    : 16241A05Y0
+	   Branch: CSE-F
+	   Year  : 3
+	   
+	   </p>
+	   
+  </div>
+  <div class="box" style="background-color:rgb(255,255,255,0.5)">
+   <img  src="IMG-20180702-WA0003.jpg" alt="Nikhila" style="width:150px ">
+    <p class="two">Name  : Nikhila Chennamsetty
+	   Id    : 16241A05V2
+	   Branch: CSE-F
+	   Year  : 3
+	   
+	   </p>
+  </div>
+  <div class="box" style="background-color:rgb(255,255,255,0.5)">
+   <img src="IMG-20180702-WA0004.png"  style="width:150px">
+    <p class="two">Name  : Pratyusha Tata
+	   Id    : 16241A05Z4
+	   Branch: CSE-F
+	   Year  : 3
+	   
+	   </p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>
